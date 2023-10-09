@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>there's a typographical error in the variable name. It's declared as greeting, but it's assigned as greetign. This will result in a ReferenceError because JavaScript cannot find a variable named greetign.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>the sum function takes two parameters a and b and performs addition on them. When you call sum(1, "2"), JavaScript will perform type coercion and convert the number 1 to a string to match the data type of b, which is "2". As a result, the + operator concatenates the two strings, resulting in "12".</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>an array food is defined with four emoji elements. Then, an object info is created with a property favoriteFood assigned to the first element of the food array, which is "🍕". However, later in the code, the info.favoriteFood property is reassigned to "🍝". This does not modify the food array. So, when console.log(food) is executed, it will output the original food array, which remains unchanged except for the modification of the info object.</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>In the sayHi function, there is a parameter name that is expected to be passed when calling the function. However, when you call sayHi() without providing any argument, name is undefined within the function. Therefore, ${name} in the template literal results in "Hi there, undefined" when logged to the console.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>The code initializes a variable count to 0 and iterates over the nums array using the forEach method. It checks if each element num is truthy (i.e., not equal to 0), and if it is, it increments the count by 1. Since there are three truthy elements (1, 2, and 3) in the array, the count variable becomes 3, which is logged to the console.</i>
 
 </p>
 </details>
